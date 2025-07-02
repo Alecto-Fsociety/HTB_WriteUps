@@ -75,7 +75,7 @@ cat /usr/share/Seclists/Discoverty/DNS/subdomains-* >> subdomain.txt
 ```
 ffuf -w subdomain.txt -u http://planning.htb -c -H "Host :FUZZ.planning.htb" -o ffuf.log
 ```
-これにより、```grafana```というsubomainが見つかる。
+これにより、```grafana```というsubdomainが見つかる。
 もちろん、```grafana.planning.htb```を```/etc/hosts```に追加しなければならないので
 ```10.10.11.68   planning.htb grafana.planning.htb```となる。
 
