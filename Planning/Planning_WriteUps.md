@@ -139,7 +139,7 @@ ssh -p22 enzo@10.10.11.68 -L 8000:127.0.0.1:8000
 自分のマシンから```http://127.0.0.1:8000```にアクセス
 すると、loginホップアップが出たので
 一旦、```10.10.11.68```のsshに戻って
-そこでlogin情報で必要な情報を```linpeas.sh```を使ってみる。
+そこでlogin情報で必要な情報を```linpeas.sh```で探してみる。
 ```
 wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/linpeas.sh
 ```
