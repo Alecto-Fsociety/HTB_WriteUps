@@ -197,4 +197,4 @@ uid=0(root) gid=0(root) groups=0(root)
 0ebacefa1bfc4ad4eca56fa64ba4de02
 ```
 
-### これでコンプリート！！
+## completed!!
