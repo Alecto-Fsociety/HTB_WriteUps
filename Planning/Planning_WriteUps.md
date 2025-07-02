@@ -67,7 +67,7 @@ git clone https://github.com/danielmiessler/SecLists.git
 
 僕の場合、```Planning``` wordspaceに
 ```
-cat /usr/share/Seclists/Discoverty/DNS/subdomains-* >> subdomain.txt
+cat /usr/share/Seclists/Discovery/DNS/subdomains-* >> subdomain.txt
 ```
 とすべてのsubdomainを```subdomain.txt```でまとめて使用した。
 
