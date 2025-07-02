@@ -25,7 +25,7 @@ export ip="10.10.11.68"
 ### Nmap Options
 - nmap cmd 
 ```
-nmap $ip -sC -sV -sC -oN target_port.log -T4  
+nmap $ip -sS -sV -sC -oN target_port.log -T4  
 ```
 
 - scan結果
